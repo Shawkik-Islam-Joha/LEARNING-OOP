@@ -11,5 +11,6 @@ int main(){
     cout << "Value of local variable (counter) is: " << counter << endl; //access the local variable
     cout << "Value of global variable (counter) is: " << ::counter << endl; //access the global variable
     cout << "Hi Joha!" << newl << "How you doin?" << newl;
+    for(int i=0;i<100;i++)cout << i << newl;
     return 0;
 }
