@@ -64,7 +64,7 @@ int main(){
 
     cout << dd.get_name() << endl;      //access private data
 
-    cout << c1.brand << " " << c1.model << " " << c1.top_speed << endl;   /*It was possible because of public.
+    cout << c1.brand << " " << c1.model << " " << c1.top_speed << " " << c1.capacity << endl;   /*It was possible because of public.
     If it was private,we would have to use function to access brand,model etc.*/
 
     return 0;
