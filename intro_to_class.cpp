@@ -1,5 +1,7 @@
 #include <iostream>
 
+#define newl '\n'
+
 using namespace std;
 
 class driver{
