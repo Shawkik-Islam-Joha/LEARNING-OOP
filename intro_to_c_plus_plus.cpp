@@ -1,6 +1,7 @@
 #include <iostream>
 
 #define newl "\n"
+// compiler will replace newl with "\n"       
 
 using namespace std;
 
