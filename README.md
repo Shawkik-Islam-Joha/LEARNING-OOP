@@ -1,5 +1,6 @@
 # LEARNING-OOP
-Here I will add all the codes I will write during the learning process of Object Oriented Programming with C++.
-I will try to add necessary documentations too.As much as possible.
-Thank You.
+In this repository, I will include all the codes I write during my learning journey in Object-Oriented Programming with C++.
+I will make an effort to provide the necessary documentation wherever possible.
+
+Thank you!
 - SHAWKIK ISLAM JOHA 
