@@ -4,6 +4,25 @@
 
 using namespace std;
 
+/* Class Declaration syntax-
+
+class class-name {
+ //private functions and variables
+ public:
+ //public functions and variables
+} object-list;
+
+Object list is optional.
+
+Define Member Function -
+
+return-type class-name :: function-name(parameter-list) {
+        //body of function
+}
+
+*/
+
+
 class driver{
 private:
     string name;
