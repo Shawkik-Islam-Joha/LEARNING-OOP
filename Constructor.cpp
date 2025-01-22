@@ -17,7 +17,7 @@ class student{
 };
 
 int main(){
-    student s1("JOHA","2202124"),s2("XYZ","2202126"),s3;
+    student s1("JOHA","2202124"),s2("XYZ","2202126"),s3; //s3 will get default values set in student()
     s1.get_student();
     s2.get_student();
     s3.get_student();
