@@ -2,6 +2,14 @@
 
 using namespace std;
 
+class teacher{
+    string name,course;
+    public:
+    teacher(string a="XYZ",string b = "EEE - XYZ"){
+        name = a,course = b;
+    }
+}t1;
+
 class student{
     public:
     string id;
@@ -18,6 +26,8 @@ int main(){
     cout << "Student 3 Id = "  << s3.id << " CGPA = " << s3.cgpa << endl;
 
     s1 = s3;    //Assigniung s3 data to s1,techincally bitwise copy pasting.
+
+//  s2 = t1;    //attempting to assign different data type will throw an error
 
     cout << "Student 1 Id = "  << s1.id << " CGPA = " << s1.cgpa << endl;
 
