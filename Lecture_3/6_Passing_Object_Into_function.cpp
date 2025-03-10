@@ -3,10 +3,10 @@
 using namespace std;
 
 class student{
-    public:
+public:
     string id;
     float cgpa;
-    public:
+public:
     student(string x="220xxxx",float y=0.00){
         id = x,cgpa = y;
     }

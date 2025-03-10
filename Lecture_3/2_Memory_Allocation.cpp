@@ -5,7 +5,7 @@ using namespace std;
 
 class learn{
     int *a; //declared pointer variable
-    public:
+public:
     learn(int x){
         a = (int*)malloc(sizeof(int));
         //malloc dynamically creates a space of size 4 in memory and return that adress as void pointer,then we cast it to int pointer.

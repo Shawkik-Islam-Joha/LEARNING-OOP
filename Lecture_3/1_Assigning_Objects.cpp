@@ -4,17 +4,17 @@ using namespace std;
 
 class teacher{
     string name,course;
-    public:
+public:
     teacher(string a="XYZ",string b = "EEE - XYZ"){
         name = a,course = b;
     }
 }t1;
 
 class student{
-    public:
+public:
     string id;
     float cgpa;
-    public:
+public:
     student(string x="220xxxx",float y=0.00){
         id = x,cgpa = y;
     }
