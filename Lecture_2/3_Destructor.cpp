@@ -7,8 +7,7 @@ using namespace std;
 class student{
     string name,id;
     public:
-    //Constructor function can take arguments with default values too.
-    student(string x="Unknown",string y = "2202xxx"){
+    student(string x="Unknown",string y = "2202xxx"){   //Constructor function can take arguments with default values too.
         name = x,id = y;
     }
     //Destructor function don't take any arguments.It works after executing all member functions and destroys last one's first.
@@ -19,6 +18,7 @@ class student{
     string get_student(){
         cout << "Name : " << name << "\n" << "ID: " << id << endl;
     }
+    // Line 14 AKA destructor will start executing from here,for each objects created(Here,3 times)
 };
 
 int main(){

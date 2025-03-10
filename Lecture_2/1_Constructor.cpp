@@ -7,8 +7,7 @@ using namespace std;
 class student{
     string name,id;
     public:
-    //Constructor function can take arguments with default values too.
-    student(string x="Unknown",string y = "2202xxx"){
+    student(string x="Unknown",string y = "2202xxx"){   //Constructor function can take arguments with default values too.
         name = x,id = y;
     }
     string get_student(){
