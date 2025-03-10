@@ -7,8 +7,7 @@ public:
     student(float n){
         cgpa = n;
     }
-    // Friend function declaration
-    friend void display(student s);
+    friend void display(student s);               // Friend function declaration
 };
 
 // Friend function definition
