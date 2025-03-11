@@ -15,7 +15,7 @@ public:
     samsung(string s){
         model = s;
     }
-    void showa(apple &obj);     //A function that will access apple's data
+    void showa(apple &obj);     //A function that will access apple's private data
 };
 
 class apple{
