@@ -15,7 +15,7 @@ int main() {
     //If not failed,then -
     *s = "SHAWKIK ISLAM JOHA";
     cout << "Here is a string at allocated memory - " << *s << endl;
-    delete s;       //Freeing memory
+    delete s;       //Release allocated memory
 
     return 0;
 }
