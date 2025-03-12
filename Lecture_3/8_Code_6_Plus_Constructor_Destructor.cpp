@@ -16,10 +16,10 @@ public:
     }
 }s1("2202124",3.70);
 
-//New object created in the function does not call constructor, but destructor is called.
+// New object created in the function does not call constructor, but destructor is called.
 
-float sqcgpa(student obj){          //recieving object's memory location
-    return obj.cgpa*obj.cgpa;      //square the data on that location
+float sqcgpa(student obj){          // recieving object's memory location
+    return obj.cgpa*obj.cgpa;      // square the data on that location
 }
 
 int main(){

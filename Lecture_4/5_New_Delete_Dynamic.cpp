@@ -14,10 +14,10 @@ public:
 };
 
 int main() {
-    student *p;     //Declared object pointer
-    p = new student("SHAWKIK","2202124");    //Allocate object in memory with SHAWKIK and 2202124   
+    student *p;     // Declared object pointer
+    p = new student("SHAWKIK","2202124");    // Allocate object in memory with SHAWKIK and 2202124   
     if(!p){
-        //Failure check
+        // Failure check
         cout << "Allocation Error.." << endl;
         exit(true);
     }
@@ -25,14 +25,14 @@ int main() {
     student s1;
     *p = s1;
     p->get_data();
-    delete p;   //Release memory
+    delete p;   // Release memory
 
     cout << "__________________________________" << endl;
 
-    int *n;         //Declared integer pointer
-    n = new int(100);       //Allocate int in memory with 100
+    int *n;         // Declared integer pointer
+    n = new int(100);       // Allocate int in memory with 100
     if(!n){
-        //Failure check
+        // Failure check
         cout << "Allocation Error.." << endl;
         exit(true);
     }

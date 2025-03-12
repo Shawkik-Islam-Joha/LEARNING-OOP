@@ -11,9 +11,9 @@ public:
         id = x,cgpa = y;
     }
 }s1("2202124",3.70);
-//function returning student data type
+// Function returning student data type
 student test(){
-    student temp;   //object is created to return
+    student temp;   // object is created to return
     string p;
     cin >> p;
     temp.id = p;

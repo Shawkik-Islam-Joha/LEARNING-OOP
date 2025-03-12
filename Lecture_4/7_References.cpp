@@ -2,11 +2,11 @@
 
 using namespace std;
 
-void modi(int *p){      //taking pointer as argument
+void modi(int *p){      // taking pointer as argument
     *p = 1000;
 }
 
-void modify(int &p){    //taking ref location as argument
+void modify(int &p){    // taking ref location as argument
     p = 2000;
 }
 
@@ -19,4 +19,4 @@ int main(){
     return 0;
 }
 
-//permanent change of data at the specified location
+// permanent change of data at the specified location

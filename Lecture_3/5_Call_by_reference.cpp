@@ -4,7 +4,7 @@ using namespace std;
 
 void modify(int *x) {                                // Function receives the variable location via argument
     *x = 100;                                        // Changes the original variable via location
-    cout << "Inside function: x = " << *x << endl;   //Print the changed value inside the function
+    cout << "Inside function: x = " << *x << endl;   // Print the changed value inside the function
 }
 
 void modify2(int &x){                                // Function receives the variable location via argument

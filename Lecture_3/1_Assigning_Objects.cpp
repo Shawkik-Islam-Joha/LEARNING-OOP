@@ -25,9 +25,9 @@ int main(){
     cout << "Student 2 Id = "  << s2.id << " CGPA = " << s2.cgpa << endl;
     cout << "Student 3 Id = "  << s3.id << " CGPA = " << s3.cgpa << endl;
 
-    s1 = s3;    //Assigniung s3 data to s1,techincally bitwise copy pasting.
+    s1 = s3;    // Assigniung s3 data to s1,techincally bitwise copy pasting.
 
-//  s2 = t1;    //attempting to assign different data type will throw an error
+//  s2 = t1;    // Attempting to assign different data type will throw an error
 
     cout << "Student 1 Id = "  << s1.id << " CGPA = " << s1.cgpa << endl;
 

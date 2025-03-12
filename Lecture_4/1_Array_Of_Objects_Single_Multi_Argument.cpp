@@ -2,7 +2,7 @@
 
 using namespace std;
 
-//Declaring and defining class
+// Declaring and defining class
 class student{
 public:
     string id;
@@ -24,19 +24,19 @@ public:
 
 int main(){
     student eee[5]={student("2202124",3.75),student("2202126",3.8),student("2202164",3.8)};
-    //Generated an array of objects of class student and initialised them.
+    // Generated an array of objects of class student and initialised them.
     for(int i=0;i<5;i++){
-    //Running loop to access data from objects.
+    // Running loop to access data from objects.
         cout << "Student Id - " << eee[i].id << " CGPA - " << eee[i].cgpa << endl;
     }
 
     cout << "_________________________________" << endl;
     
     book bb[10] = {10,300,450,500};
-    //book bb[10] = {book(10),book(300),book(450)};
+    // book bb[10] = {book(10),book(300),book(450)};
     
     for(int i=0;i<10;i++){
-        //Running loop to access data from objects.
+        // Running loop to access data from objects.
             cout << "Book - " << i+1 << " Price - " << bb[i].price << endl;
     }
     return 0;

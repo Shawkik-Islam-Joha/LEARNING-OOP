@@ -12,13 +12,13 @@ public:
     }
 }s1("2202124",3.70),s2("2202130",3.91);
 
-float sqcgpa(student obj){              //passing object into function as "student" data type
-    return obj.cgpa*obj.cgpa;       //square the data collected from object
+float sqcgpa(student obj){              // Passing object into function as "student" data type
+    return obj.cgpa*obj.cgpa;       // Square the data collected from object
 }
 
 int main(){
     cout << sqcgpa(s1) << endl;
     cout << sqcgpa(s2) << endl;
-    cout << s1.cgpa << endl;        //s1.cgpa is unchanged in main()
+    cout << s1.cgpa << endl;        // s1.cgpa is unchanged in main()
     return 0;
 }

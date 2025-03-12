@@ -15,7 +15,7 @@ public:
     samsung(string s){
         model = s;
     }
-    void showa(apple &obj);     //A function that will access apple's private data
+    void showa(apple &obj);     // A function that will access apple's private data
 };
 
 class apple{
@@ -26,12 +26,13 @@ public:
         model = s;
     }
     friend void samsung::showa(apple &obj);     
-    /*Declaration of friend of a function of samsung that'll be
+    /*
+    Declaration of friend of a function of samsung that'll be
     able to access apple's private data.
     */
 };
 
-//Defining the friend function.
+// Defining the friend function.
 void samsung::showa(apple &obj){
     cout << "Model Name - " << obj.model << endl;
 }
@@ -39,6 +40,6 @@ void samsung::showa(apple &obj){
 int main(){
     samsung s1("S24 Ultra");
     apple a1("iPhone 16");
-    s1.showa(a1);   //samsung's function accessing apple's data
+    s1.showa(a1);   // samsung's function accessing apple's data
     return 0;
 }

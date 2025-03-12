@@ -10,9 +10,9 @@ public:
     friend void display(student s);               // Friend function declaration
 };
 
-// Friend function definition
+// Friend function defining
 void display(student s){
-    cout << "Student CGPA : " << s.cgpa << endl;  // Accessing private data (wsing dot notation!)
+    cout << "Student CGPA : " << s.cgpa << endl;  // Accessing private data (using dot notation!)
 }
 
 int main() {

@@ -4,7 +4,7 @@ using namespace std;
 
 void modify(int x) {                                // Function receives a copy of the argument
     x = 100;                                        // Changes only the copy, not the original variable
-    cout << "Inside function: x = " << x << endl;   //Print the changed value inside the function
+    cout << "Inside function: x = " << x << endl;   // Print the changed value inside the function
 }
 
 int main() {
