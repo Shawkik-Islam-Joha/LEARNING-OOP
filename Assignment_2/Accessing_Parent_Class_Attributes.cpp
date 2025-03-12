@@ -2,7 +2,6 @@
 
 using namespace std;
 
-// Parent Class: Vehicle
 class Vehicle {
 protected:
     string type;
@@ -17,7 +16,6 @@ public:
     }
 };
 
-// Derived Class: Car (inherits Vehicle)
 class Car : public Vehicle {
 protected:
     string brand;
@@ -32,7 +30,6 @@ public:
     }
 };
 
-// Derived Class: Toyota (inherits Car)
 class Toyota : public Car {
 private:
     string model;
@@ -41,17 +38,14 @@ public:
         model = m;
     }
     void display() {
-        displayVehicle(); // Call parent class method
-        displayCar(); // Call parent class method
+        displayVehicle(); 
+        displayCar(); 
         cout << "Model: " << model << endl;
     }
 };
 
 int main() {
-    // Creating an object of Toyota
     Toyota ob("Corolla", "Toyota", 2022, "Sedan", 4);
-    
-    // Displaying all attributes
     ob.display();
 
     return 0;
