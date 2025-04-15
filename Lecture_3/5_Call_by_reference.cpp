@@ -9,7 +9,7 @@ void modify(int *x) {                                // Function receives the va
 
 void modify2(int &x){                                // Function receives the variable location via argument
     x = 120;                                         // Changes the original variable via location
-    cout << "Inside function: x = " << x << endl;
+    cout << "Inside function: x = " << x << endl;    // Print the changed value inside the function
 }
 
 int main() {
